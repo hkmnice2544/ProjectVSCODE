@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutterr/screen/Addinform.dart';
 import 'package:flutterr/screen/Home.dart';
-import 'package:flutterr/screen/Login.dart';
-import 'package:flutterr/screen/UploadPicture.dart';
+import 'package:flutterr/screen/Long/Login.dart';
 
 void main() {
   runApp(const MainApp());
@@ -14,7 +12,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: LoginPage(),
+      home: Home(),
       theme: ThemeData(),
     );
   }

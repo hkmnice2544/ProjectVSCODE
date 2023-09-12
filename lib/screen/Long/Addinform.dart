@@ -1,14 +1,13 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:flutterr/screen/Detail.dart';
-import 'package:flutterr/screen/Update.dart';
+
 import 'package:image_picker/image_picker.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:path/path.dart' as path;
 
-import '../Model/informrepair_model.dart';
-import '../controller/informrepair_controller.dart';
-import '../model/inform_pictures_model.dart';
+import '../../Model/informrepair_model.dart';
+import '../../controller/informrepair_controller.dart';
+import 'Detail.dart';
 
 class Addinform extends StatefulWidget {
   const Addinform({super.key});

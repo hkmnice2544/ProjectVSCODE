@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutterr/screen/Update.dart';
 
-import '../Model/informrepair_model.dart';
-import '../controller/informrepair_controller.dart';
+import '../../Model/informrepair_model.dart';
+import '../../controller/informrepair_controller.dart';
+import 'Update.dart';
 import 'View_Details.dart';
 
 class Details extends StatefulWidget {

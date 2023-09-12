@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutterr/screen/Detail.dart';
 
-import '../Model/informrepair_model.dart';
-import '../controller/informrepair_controller.dart';
+import '../../Model/informrepair_model.dart';
+import '../../controller/informrepair_controller.dart';
+
+import 'Detail.dart';
 
 class Updateinform extends StatefulWidget {
   final int? informrepair_id;

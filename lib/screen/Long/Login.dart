@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutterr/screen/Home.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:image_picker/image_picker.dart';
 
-import '../Model/informrepair_model.dart';
-import '../constant/constant_value.dart';
+import '../../constant/constant_value.dart';
+import 'Homeee.dart';
 
 class LoginPage extends StatelessWidget {
   final TextEditingController _usernameController = TextEditingController();

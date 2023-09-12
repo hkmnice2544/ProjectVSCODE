@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../Model/informrepair_model.dart';
-
 class ViewDetails extends StatefulWidget {
   final int? informrepair_id;
   const ViewDetails({
